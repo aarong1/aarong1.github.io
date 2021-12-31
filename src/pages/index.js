@@ -81,7 +81,7 @@ const badgeStyle = {
 // data
 const links = [
   {
-    text: "Tutorial",
+    text: "rial",
     url: "https://www.gatsbyjs.com/docs/tutorial/",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
@@ -129,17 +129,17 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Aaron website</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Welcome Home
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>— Data science portfolio </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
+        The main script serving <code style={codeStyles}>src/pages/index.js</code> is the one we need to edit -supports hot reloading-
         update in real-time.{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
